@@ -1,0 +1,15 @@
+<Solution>
+  <PropertyGroup Name="HelloLuaUI" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="images">
+          <Image Name="HelloWorld.png" />
+        </Folder>
+        <Folder Name="ui">
+          <Project Name="UIMain.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
