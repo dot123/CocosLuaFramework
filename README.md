@@ -1,4 +1,4 @@
-﻿# CocosLuaFramework
+﻿# Cocos lua客户端框架
 https://github.com/dot123/CocosLuaFramework.git
 
 相关资料
