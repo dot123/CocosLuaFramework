@@ -79,7 +79,6 @@ function BaseForm:initNodeCache(parent)
             BaseForm:initNodeCache(parent)
         end
     end
-    return
 end
 
 -- 设置界面的可见性

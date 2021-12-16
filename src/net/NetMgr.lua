@@ -39,7 +39,7 @@ end
 
 -- 是否正在连接
 function NetMgr:isConnecting()
-    return IsConnected
+    return IsConnecting
 end
 
 -- 检查ipv6
@@ -74,8 +74,6 @@ function NetMgr:connect(host, port)
     local newHost = nil
     local r, e = pcall(function ()
         isIpv6, newHost = checkIpv6(host)
-
-        return 
     end)
 
     if not r then

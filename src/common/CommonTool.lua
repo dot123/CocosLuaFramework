@@ -8,6 +8,4 @@ function catch(func, callback)
     if not s and callback and type(callback) == "function" then
         callback()
     end
-
-    return 
 end

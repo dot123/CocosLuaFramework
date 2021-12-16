@@ -35,8 +35,6 @@ function EventMgr:addEventListener(type, listener, cls)
 
         return list[idKey]
     end
-
-    return 
 end
 function EventMgr:removeEventListener(type, listener, cls)
     if not type or not listener then
@@ -49,8 +47,6 @@ function EventMgr:removeEventListener(type, listener, cls)
     if list and list[idKey] then
         list[idKey] = nil
     end
-
-    return 
 end
 
 function EventMgr:dispatchEvent(type, ...)
@@ -67,8 +63,6 @@ function EventMgr:dispatchEvent(type, ...)
             end
         end
     end
-
-    return 
 end
 
 function EventMgr:hasEventListener(type)
